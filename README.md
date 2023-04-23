@@ -3,13 +3,22 @@ Codes and other files for the "AAU3" control-engineering bachelor project, that 
 
 In here there will be multiple folders pertaining to either "data" or "code" or others. a short overview over files will be shown under:
 
-"Data"-folder
-  -Non-code testing
-  -File-repositories such as matlab files.
 
-"Code"-folder
-  -The full-size code for the acceptance-test for the "AAU3"-cubli"
-  -Finalized code for post-work on the bachelor project after it has been submitted.
+-"Data"
+
+  -----Non-code testing
   
-"Other"-folder
-  -TBD.
+  -----File-repositories such as matlab files.
+  
+ 
+-"Code"
+
+ -----The full-size code for the acceptance-test for the "AAU3"-cubli"
+  
+ -----Finalized code for post-work on the bachelor project after it has been submitted.
+  
+  
+  
+-"Other"
+
+  -----TBD.
