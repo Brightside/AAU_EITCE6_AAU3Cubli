@@ -5,20 +5,19 @@ In here there will be multiple folders pertaining to either "data" or "code" or 
 
 
 -"Data"
-
-  -----Non-code testing
   
   -----File-repositories such as matlab files.
   
- 
+  
+-"Test"
+
+  -----Tests regarding code.
+  -----Non-code testing.
+
+
 -"Code"
 
  -----The full-size code for the acceptance-test for the "AAU3"-cubli"
   
  -----Finalized code for post-work on the bachelor project after it has been submitted.
   
-  
-  
--"Other"
-
-  -----TBD.
