@@ -18,7 +18,7 @@ In here there will be multiple folders pertaining to either "data" or "code" or 
 
 -"Code"
 
- -----The full-size code for the acceptance-test for the "AAU3"-cubli"
+ -----The full-size code for the acceptance-test for the "AAU3"
   
  -----Finalized code for post-work on the bachelor project after it has been submitted.
   
