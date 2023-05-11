@@ -1,0 +1,46 @@
+#include functions.h
+
+unsigned long currentTime = 0;  variable to store the current time
+
+void setup() {
+   Initialize the needed stuff
+  InitMotor();
+  InitServo();
+  ServoReset();
+  Serial.begin(115200);
+}
+
+void loop() {
+  currentTime = millis();   get the current time
+  float pot_measurement = getFrameAngle();
+  float wheel_speed = getWheelSpeed();
+  float frame_speed = getFrameSpeed();  Gyro doesn't work
+
+   Negativ side
+  if (pot_measurement  0) {
+    setMotorTorque(-1);
+    if (abs(wheel_speed) = (1650PI260)) {
+      setMotorTorque(0);      
+      ServoBrake();
+      delay(300);
+      ServoReset();
+    }
+  }
+   Positiv side 
+  else {
+  setMotorTorque(1);
+  if (abs(wheel_speed) = (1950PI260)) {
+    setMotorTorque(0);
+    ServoBrake();
+    delay(300);
+    ServoReset();
+    }
+  }
+  Serial.print(currentTime);
+  Serial.print(;);
+  Serial.print(frame_speed);
+  Serial.print(;);
+  Serial.print(wheel_speed);
+  Serial.print(;);
+  Serial.println(pot_measurement);
+}
